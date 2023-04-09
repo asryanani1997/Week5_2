@@ -4,7 +4,6 @@ z=0
 for i in x: 
     if i%2==0:
         y+=i
-    if i%2!=0:
-        z+=i
+    else: z+=i
 
 print([y,z])
